@@ -1,0 +1,51 @@
+[
+  {
+    "id": "m5",
+	"looks_like": "knife_combat",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "M5 'Night Raider' Knife", "str_pl": "M5 'Night Raider' Knives" },
+    "description": "The standard issue bayonet knife issued to Colonial Marines. very useful for cutting through materials as well as grass and good as a last resort versus enemies. can be attached to weapons that allow bayonets on the muzzle.",
+    "weight": "600 g",
+    "volume": "400 ml",
+    "price": 20000,
+    "price_postapoc": 2000,
+    "to_hit": 1,
+    "bashing": 2,
+    "cutting": 19,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "gunmod_data": {
+      "location": "underbarrel",
+      "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ]
+    },
+    "min_skills": [ [ "weapon", 2 ], [ "melee", 1 ] ],
+    "techniques": "RAPID",
+    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 17 ] ],
+    "thrown_damage": [ { "damage_type": "stab", "amount": 15 } ],
+    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NPC_THROWN" ]
+  },
+  {
+    "id": "m2132",
+	"looks_like": "machete",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "M2132 Machete" },
+    "description": "Latest issue of the USCM machete. Great for clearing out jungle or brush on outlying colonies, it is found commonly in the hands of scouts and trackers.",
+    "weight": "600 g",
+    "volume": "1 L",
+    "price": 3500,
+    "price_postapoc": 2000,
+    "to_hit": 1,
+    "bashing": 5,
+    "cutting": 23,
+    "material": [ "steel", "plastic" ],
+    "symbol": "/",
+    "color": "dark_gray",
+    "techniques": "WBLOCK_2",
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 16 ] ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD" ]
+  }
+]
