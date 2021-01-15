@@ -184,6 +184,21 @@
     "ranged_damage": { "damage_type": "stab", "amount": -1 },
     "dispersion": 170,
     "durability": 6,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "muzzle", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "pulse rifle underbarrel", 1 ]
+    ]
     "min_cycle_recoil": 1450,
 	"default_mods": [ "cm_grenade_launcher" ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ],
