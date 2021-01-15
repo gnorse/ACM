@@ -1,0 +1,27 @@
+[
+  {
+    "id": "cm_helmet_standard",
+    "repairs_like": "helmet_army",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "M10 pattern marine helmet" },
+    "description": "Standard issue Helmet used by the USCM. Provides modest protection from bullet and melee attacks aimed at the head.",
+    "weight": "1383 g",
+    "volume": "1750 ml",
+    "price": 5000,
+    "price_postapoc": 1400,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [ "kevlar", "steel" ],
+    "symbol": "[",
+    "looks_like": "helmet_army",
+    "color": "green",
+    "covers": [ "head" ],
+    "coverage": 85,
+    "encumbrance": 20,
+    "warmth": 20,
+    "material_thickness": 7,
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
+  }
+]
