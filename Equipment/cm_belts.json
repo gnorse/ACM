@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cm_belt_ammo",
+    "type": "ARMOR",
+    "name": { "str": "M276 pattern ammo load rig" },
+    "description": "The M276 is the standard load-bearing equipment of the USCM. This version is the standard variant designed for bulk ammunition-carrying operations. It holds 4 various magazines.",
+    "weight": "2500 g",
+    "volume": "2250 ml",
+    "price": 5000,
+    "price_postapoc": 1700,
+    "bashing": 5,
+    "material": [ "leather" ],
+    "symbol": "[",
+    "looks_like": "holster",
+    "color": "brown",
+    "covers": [ "torso" ],
+    "coverage": 20,
+    "encumbrance": 3,
+    "material_thickness": 2,
+    "pocket_data": [
+      { "max_contains_volume": "1 L", "max_contains_weight": "1500 g", "moves": 100 },
+      {
+        "pocket_type": "CONTAINER",
+        "min_item_volume": "50 ml",
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "1500 g",
+        "max_item_length": "50 cm",
+        "moves": 50,
+        "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "min_item_volume": "50 ml",
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "1500 g",
+        "max_item_length": "50 cm",
+        "moves": 50,
+        "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "min_item_volume": "50 ml",
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "1500 g",
+        "max_item_length": "50 cm",
+        "moves": 50,
+        "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "min_item_volume": "50 ml",
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "1500 g",
+        "max_item_length": "50 cm",
+        "moves": 50,
+        "flag_restriction": [ "MAG_COMPACT", "MAG_BULKY" ]
+      }
+    ],
+    "use_action": { "type": "holster", "holster_prompt": "Stash ammo", "holster_msg": "You stash your %s." },
+    "flags": [ "WAIST", "NO_QUICKDRAW", "WATER_FRIENDLY" ]
+  }
+]
