@@ -198,7 +198,7 @@
       [ "sling", 1 ],
       [ "stock", 1 ],
       [ "pulse rifle underbarrel", 1 ]
-    ]
+    ],
     "min_cycle_recoil": 1450,
 	"default_mods": [ "cm_grenade_launcher" ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ],
