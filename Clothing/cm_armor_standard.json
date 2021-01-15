@@ -1,0 +1,96 @@
+[
+  {
+    "id": "cm_armor_standard",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "M3 pattern personal armor" },
+    "description": "Standard Issue Armor used by USCM. Provides modest protection from bullet and melee attacks as well as three small pouches to store your items.",
+    "weight": "7000 g",
+    "volume": "11500 ml",
+    "price": 12000,
+    "price_postapoc": 2500,
+    "to_hit": -5,
+    "bashing": 2,
+    "material": [ "kevlar_layered", "steel" ],
+    "symbol": "[",
+    "looks_like": "armor_riot",
+    "color": "dark_gray",
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 90, "encumbrance": [ 12, 20 ] },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 75, "encumbrance": [ 12, 12 ] }
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 75, "encumbrance": [ 12, 12 ] }
+    ],
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 80 }
+    ],
+    "warmth": 20,
+    "material_thickness": 4,
+    "environmental_protection": 2,
+    "valid_mods": [ "steel_padded" ],
+    "flags": [ "POCKETS", "STURDY", "OUTER" ]
+  },
+  {
+    "id": "cm_armor_light",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "M3-L pattern light armor" },
+    "description": "A lighter, cut down version of the standard M3 pattern armor. It sacrifices protection for less encumberance. Contains two pouches to store your items.",
+    "weight": "5000 g",
+    "volume": "10000 ml",
+    "price": 15000,
+    "price_postapoc": 2000,
+    "to_hit": -5,
+    "bashing": 2,
+    "material": [ "kevlar_layered", "steel" ],
+    "symbol": "[",
+    "looks_like": "armor_riot",
+    "color": "dark_gray",
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 85, "encumbrance": [ 8, 14 ] },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 60, "encumbrance": [ 8, 8 ] }
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 60, "encumbrance": [ 8, 8 ] }
+    ],
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 80 }
+    ],
+    "warmth": 15,
+    "material_thickness": 3,
+    "environmental_protection": 2,
+    "valid_mods": [ "steel_padded" ],
+    "flags": [ "POCKETS", "STURDY", "OUTER" ]
+  },
+  {
+    "id": "cm_armor_heavy",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "M3-H pattern heavy armor" },
+    "description": "A heavier version of the standard M3 pattern armor, clad with additional plates. It sacrifices encumberance for more protection. Contains two pouches to store your items.",
+    "weight": "15000 g",
+    "volume": "11 L",
+    "price": 18000,
+    "price_postapoc": 3000,
+    "to_hit": -5,
+    "bashing": 2,
+    "material": [ "kevlar_layered", "steel" ],
+    "symbol": "[",
+    "looks_like": "armor_riot",
+    "color": "dark_gray",
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 95, "encumbrance": [ 16, 30 ] },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 90, "encumbrance": [ 16, 16 ] }
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 90, "encumbrance": [ 16, 16 ] }
+    ],
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 80 }
+    ],
+    "warmth": 25,
+    "material_thickness": 4,
+    "environmental_protection": 2,
+    "valid_mods": [ "steel_padded" ],
+    "flags": [ "POCKETS", "STURDY", "OUTER" ]
+  }
+]
