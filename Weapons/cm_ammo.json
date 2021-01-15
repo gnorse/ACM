@@ -17,7 +17,7 @@
     "stack_size": 40,
     "ammo_type": "10x20mm",
     "range": 30,
-    "damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 5 },
+    "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 5 },
     "dispersion": 50,
     "recoil": 1000,
     "effects": [ "NEVER_MISFIRES" ]
@@ -28,7 +28,7 @@
     "type": "AMMO",
     "name": { "str": "10x20mm AP" },
     "description": "A 10x20mm caseless armor-piercing round. The bullet tips are made out of high-density material, allowing them to pierce straight through armor, but also reducing the raw stopping power and velocity of the ammunition. Being caseless rounds, these cannot be disassembled or reloaded.",
-    "relative": { "damage": { "damage_type": "stab", "amount": -5, "armor_penetration": 10 } },
+    "relative": { "damage": { "damage_type": "bullet", "amount": -5, "armor_penetration": 10 } },
 	"proportional": { "price": 1.2, "price_postapoc": 1.2 }
 
   },
@@ -38,7 +38,7 @@
     "type": "AMMO",
     "name": { "str": ".44 Heavy Magnum" },
     "description": ".44 magnum ammunition with 240gr HI bullets. The heavy composite material that makes up the bullet's core causes it to have lesser exit velocity and damage, but dazes the target on impact.",
-    "relative": { "damage": { "damage_type": "stab", "amount": -10, "armor_penetration": 2 } },
+    "relative": { "damage": { "damage_type": "bullet", "amount": -10, "armor_penetration": 2 } },
 	"proportional": { "price": 1.2, "price_postapoc": 1.2, "recoil": 1.1 },
 	"extend": { "effects": [ "BEANBAG" ] }
 
@@ -61,7 +61,7 @@
     "stack_size": 70,
     "ammo_type": "10x24mm",
     "range": 36,
-    "damage": { "damage_type": "stab", "amount": 36, "armor_penetration": 5 },
+    "damage": { "damage_type": "bullet", "amount": 36, "armor_penetration": 5 },
     "dispersion": 50,
     "recoil": 1100,
     "effects": [ "NEVER_MISFIRES" ]
@@ -72,7 +72,7 @@
     "type": "AMMO",
     "name": { "str": "10x24mm AP" },
     "description": "A 10x24mm caseless armor piercing round. The cartridge's explosive tip's factory pre-set impact fuse is designed to explode after the round has penetrated armor to inflict maximum damage, and so it will often over-penetrate soft targets without exploding, leaving them relatively unharmed. Being caseless rounds, these cannot be disassembled or reloaded.",
-    "relative": { "damage": { "damage_type": "stab", "amount": -7, "armor_penetration": 17 } },
+    "relative": { "damage": { "damage_type": "bullet", "amount": -7, "armor_penetration": 17 } },
 	"proportional": { "price": 1.2, "price_postapoc": 1.2 }
 
   }
