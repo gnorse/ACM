@@ -1,0 +1,116 @@
+[
+  {
+    "id": "cm_uniform_hypersleep",
+    "type": "ARMOR",
+    "name": { "str": "USCM hypersleep uniform" },
+    "description": "A simple outfit worn by USCM personnel during hypersleep.",
+    "weight": "580 g",
+    "volume": "2700 ml",
+    "price": 8900,
+    "price_postapoc": 50,
+    "to_hit": -3,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "touring_suit",
+    "color": "yellow",
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 95, "encumbrance": 1 },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 60, "encumbrance": 1 }
+    ],
+    "warmth": 15,
+    "material_thickness": 1,
+    "flags": [ "VARSIZE" ]
+  },
+  {
+    "id": "cm_uniform_marine",
+    "type": "ARMOR",
+    "name": { "str": "USCM marine uniform" },
+    "description": "A standard-issue marine uniform, only worn by USCM combat personnel. Contains light shards of kevlar to help stop the occasional pistol bullet.",
+    "weight": "650 g",
+    "volume": "3300 ml",
+    "price": 9000,
+    "price_postapoc": 150,
+    "to_hit": -3,
+    "material": [ "cotton", "kevlar" ],
+    "symbol": "[",
+    "looks_like": "touring_suit",
+    "color": "yellow",
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 95, "encumbrance": 2 },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 90, "encumbrance": 2 },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 90, "encumbrance": 2 }
+    ],
+    "warmth": 15,
+    "material_thickness": 1,
+    "flags": [ "VARSIZE" ]
+  },
+  {
+    "id": "cm_uniform_officer",
+    "type": "ARMOR",
+    "name": { "str": "USCM officer uniform" },
+    "description": "A uniform worn by commissioned officers of the USCM. Contains light shards of kevlar to help stop the occasional pistol bullet.",
+    "weight": "640 g",
+    "volume": "3200 ml",
+    "price": 9000,
+    "price_postapoc": 170,
+    "to_hit": -3,
+    "material": [ "cotton", "kevlar" ],
+    "symbol": "[",
+    "looks_like": "touring_suit",
+    "color": "yellow",
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 90, "encumbrance": 2 },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 85, "encumbrance": 2 },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 85, "encumbrance": 2 }
+    ],
+    "warmth": 15,
+    "material_thickness": 1,
+    "flags": [ "VARSIZE" ]
+  },
+  {
+    "id": "cm_uniform_executive",
+    "type": "ARMOR",
+    "name": { "str": "USCM executive officer uniform" },
+    "description": "A uniform typically worn by a first-lieutenant executive officer in the USCM. Contains light shards of kevlar to help stop the occasional pistol bullet.",
+    "weight": "660 g",
+    "volume": "3300 ml",
+    "price": 9000,
+    "price_postapoc": 250,
+    "to_hit": -3,
+    "material": [ "cotton", "kevlar" ],
+    "symbol": "[",
+    "looks_like": "touring_suit",
+    "color": "yellow",
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 90, "encumbrance": 2 },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 85, "encumbrance": 2 },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 85, "encumbrance": 2 }
+    ],
+    "warmth": 15,
+    "material_thickness": 2,
+    "flags": [ "VARSIZE" ]
+  },
+  {
+    "id": "cm_uniform_commander",
+    "type": "ARMOR",
+    "name": { "str": "USCM commander uniform" },
+    "description": "The well-ironed uniform of a USCM commanding officer. Even looking at it the wrong way could result in being court-marshalled. Contains light shards of kevlar to help stop the occasional pistol bullet.",
+    "weight": "660 g",
+    "volume": "3300 ml",
+    "price": 9000,
+    "price_postapoc": 300,
+    "to_hit": -3,
+    "material": [ "cotton", "kevlar" ],
+    "symbol": "[",
+    "looks_like": "touring_suit",
+    "color": "yellow",
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 95, "encumbrance": 1 },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 90, "encumbrance": 1 },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 90, "encumbrance": 1 }
+    ],
+    "warmth": 15,
+    "material_thickness": 2,
+    "flags": [ "VARSIZE" ]
+  }
+]
