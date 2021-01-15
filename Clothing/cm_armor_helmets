@@ -65,5 +65,5 @@
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "The %s flicks off.", "target": "cm_helmet_standard" },
     "covers": [ "head" ],
     "techniques": [ "WBLOCK_1" ]
-  },
+  }
 ]
