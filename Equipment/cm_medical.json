@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cm_tram_injector",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": "tramadol autoinjector",
+    "description": "Standard issue one-use autoinjector capable of administring a painkiller of moderate strength to help in combat situations.",
+    "weight": "10 g",
+    "volume": "400 ml",
+    "price": 4000,
+    "price_postapoc": 25000,
+    "charges": 1,
+    "stack_size": 1,
+    "material": [ "plastic" ],
+    "symbol": "!",
+    "color": "light_gray",
+    "fun": 6,
+    "addiction_potential": 5,
+    "addiction_type": "opiate",
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You inject yourself.",
+      "effects": [ { "id": "pkill2", "duration": 800 } ]
+    }
+]
