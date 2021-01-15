@@ -18,6 +18,7 @@
     "color": "dark_gray",
     "gunmod_data": {
       "location": "underbarrel",
+      "install_time": "5 s",
       "mod_targets": [ "shotgun", "rifle", "smg", "crossbow" ],
       "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ]
     },
