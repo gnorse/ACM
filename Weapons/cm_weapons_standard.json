@@ -199,7 +199,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "min_cycle_recoil": 1450,
+    "min_cycle_recoil": 800,
 	"default_mods": [ "cm_grenade_launcher" ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ],
     "pocket_data": [

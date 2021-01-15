@@ -2,6 +2,7 @@
   {
     "id": "cm_tram_injector",
     "type": "COMESTIBLE",
+	"looks_like": "adrenaline_injector",
     "comestible_type": "MED",
     "name": "tramadol autoinjector",
     "description": "Standard issue one-use autoinjector capable of administring a painkiller of moderate strength to help in combat situations.",
@@ -23,4 +24,5 @@
       "activation_message": "You inject yourself.",
       "effects": [ { "id": "pkill2", "duration": 800 } ]
     }
+  }
 ]

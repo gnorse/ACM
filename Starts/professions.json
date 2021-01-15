@@ -3,19 +3,13 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "cm_basic_firstaid",
-    "entries": [ { "item": "bandages" }, { "item": "cm_tram_injector" }, { "item": "antiseptic" } ]
+    "entries": [ { "item": "bandages" }, { "item": "cm_tram_injector" }, { "item": "disinfectant" } ]
   },
   {
     "type": "item_group",
     "subtype": "collection",
     "id": "cm_mags_pulsemk2",
     "entries": [ { "item": "m41a_mag", "ammo-item": "10x24mm", "charges": 40 }, { "item": "m41a_mag", "ammo-item": "10x24mm", "charges": 40 } ]
-  },
-  {
-    "type": "item_group",
-    "subtype": "collection",
-    "id": "charged_cm_helmet_standard",
-    "entries": [ { "item": "light_plus_battery_cell", "ammo-item": "battery", "charges": 150, "container-item": "cm_helmet_standard" } ]
   },
   {
     "type": "profession",
@@ -32,16 +26,17 @@
     "items": {
       "both": {
         "items": [
+	      "cm_helmet_standard",
           "cm_uniform_marine",
           "cm_armor_light",
           "gloves_tactical",
           "socks",
           "boots_combat",
           "wristwatch",
+		  "light_disposable_cell",
           "mre_beef_box"
         ],
         "entries": [
-          { "group": "charged_cm_helmet_standard" },
           { "item": "cm_belt_ammo", "contents-group": "cm_mags_pulsemk2" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "cm_pouch_firstaid", "contents-group": "cm_basic_firstaid" },
