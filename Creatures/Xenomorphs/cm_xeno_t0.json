@@ -6,7 +6,7 @@
     "description": "A squirming yellow snake-like creature. Despite the sharp teeth it posseses on the front of its smooth 'head', it appears to prefer fleeing to fighting.",
     "default_faction": "xenomorph",
     "bodytype": "snake",
-    "species": [ "XENOMORPH" ],
+    "species": [ "XENOMORPH_TINY" ],
     "size": "TINY",
     "volume": "1.5 L",
     "weight": "2000 g",
