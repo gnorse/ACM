@@ -1,13 +1,29 @@
 [
   {
     "type": "SPECIES",
-    "id": "XENOMORPH",
+    "id": "XENOMORPH_TINY",
     "description": "a xenomorph",
+    "footsteps": "rustling",
     "fear_triggers": [ "FIRE" ]
   },
   {
     "type": "SPECIES",
-    "id": "XENOMORPH_FIREIMMUNE",
-    "description": "a fire-immune xenomorph",
+    "id": "XENOMORPH",
+    "description": "a xenomorph",
+    "footsteps": "skittering",
+    "fear_triggers": [ "FIRE" ]
+  },
+  {
+    "type": "SPECIES",
+    "id": "XENOMORPH_BIG",
+    "fear_triggers": [ "FIRE" ]
+    "footsteps": "heavy skittering",    
+    "description": "a fire-immune xenomorph"
+  },
+  {
+    "type": "SPECIES",
+    "id": "XENOMORPH_BIG_FIREIMMUNE",
+    "footsteps": "heavy skittering",    
+    "description": "a fire-immune xenomorph"
   }
 ]
