@@ -8,24 +8,26 @@
     "bodytype": "snake",
     "species": [ "XENOMORPH_TINY" ],
     "size": "TINY",
-    "volume": "1.5 L",
+    "volume": "15000 ml",
     "weight": "2000 g",
     "hp": 15,
+    "vision_day": 3,
+    "vision_night": 3,
     "speed": 25,
     "material": [ "iflesh" ],
     "symbol": "x",
-    "color": "gray",
+    "color": "dark_gray",
     "aggression": -60,
-    "fear_triggers": [ "HURT", "PLAYER_CLOSE" ]
-    "morale": 50,
+    "fear_triggers": [ "HURT", "PLAYER_CLOSE" ],
+    "morale": -50,
     "melee_skill": 2,
     "dodge": 1,
     "melee_dice": 1,
     "melee_dice_sides": 5,
-    "melee_cut": 0,
     "upgrades": { "age_grow": 3, "into_group": "group_cm_xeno_tier1" },
+    "melee_cut": 0,
     "death_function": [ "ACID", "NORMAL" ],
     "harvest": "arachnid_acid",
-    "flags": [ "ACIDPROOF", "ACID_BLOOD", "LARVA", "NO_BREATHE", "POISON", "SMELLS", "GOODHEARING" ]
+    "flags": [ "ACIDPROOF", "ACID_BLOOD", "LARVA", "HEARS", "NO_BREATHE", "POISON", "SMELLS", "GOODHEARING", "SEES" ]
   }
 ]

@@ -1,0 +1,7 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "xenomorph",
+    "//": "TODO assign base faction and/or attitude"
+  }
+]

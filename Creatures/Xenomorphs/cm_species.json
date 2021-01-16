@@ -16,7 +16,7 @@
   {
     "type": "SPECIES",
     "id": "XENOMORPH_BIG",
-    "fear_triggers": [ "FIRE" ]
+    "fear_triggers": [ "FIRE" ],
     "footsteps": "heavy skittering",    
     "description": "a fire-immune xenomorph"
   },
