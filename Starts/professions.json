@@ -20,7 +20,7 @@
     "skills": [
       { "level": 2, "name": "gun" },
       { "level": 2, "name": "rifle" },
-      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "stabbing" },
       { "level": 2, "name": "firstaid" }
     ],
     "items": {
