@@ -4,7 +4,7 @@
     "type": "GENERIC",
     "category": "container",
     "name": { "str": "first-aid pouch" },
-    "looks_like": "1st_aid",
+    "looks_like": "ifak_pouch",
     "description": "Standard issue field aid pouch for all USCM soldiers. Comes with basic medical supplies.",
     "weight": "10 g",
     "volume": "1250 ml",

@@ -88,7 +88,7 @@
       { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 80 }
     ],
     "warmth": 25,
-    "material_thickness": 4,
+    "material_thickness": 5,
     "environmental_protection": 2,
     "valid_mods": [ "steel_padded" ],
     "flags": [ "POCKETS", "STURDY", "OUTER" ]

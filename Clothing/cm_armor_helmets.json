@@ -48,7 +48,7 @@
     "coverage": 85,
     "encumbrance": 20,
     "warmth": 20,
-    "material_thickness": 7,
+    "material_thickness": 6,
     "techniques": [ "WBLOCK_1" ],
     "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
   },

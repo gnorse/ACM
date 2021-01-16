@@ -11,7 +11,7 @@
     "to_hit": -3,
     "material": [ "cotton" ],
     "symbol": "[",
-    "looks_like": "touring_suit",
+    "looks_like": "boxer_shorts",
     "color": "yellow",
     "armor_portion_data": [
       { "covers": [ "torso" ], "coverage": 95, "encumbrance": 1 },
