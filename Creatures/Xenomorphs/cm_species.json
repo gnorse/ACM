@@ -1,0 +1,13 @@
+[
+  {
+    "type": "SPECIES",
+    "id": "XENOMORPH",
+    "description": "a xenomorph",
+    "fear_triggers": [ "FIRE" ]
+  },
+  {
+    "type": "SPECIES",
+    "id": "XENOMORPH_FIREIMMUNE",
+    "description": "a fire-immune xenomorph",
+  }
+]
