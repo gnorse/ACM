@@ -1,0 +1,29 @@
+[
+  {
+    "id": "cm_xeno_larva",
+    "type": "MONSTER",
+    "name": { "str": "xenomorph larva", "str_pl": "xenomorph larve" },
+    "description": "A squirming yellow snake-like creature. Despite the sharp teeth it posseses on the front of its smooth 'head', it appears to prefer fleeing to fighting.",
+    "default_faction": "xenomorph",
+    "bodytype": "snake",
+    "species": [ "XENOMORPH_TIER0" ],
+    "volume": "1.5 L",
+    "weight": "2000 g",
+    "hp": 15,
+    "speed": 25,
+    "material": [ "iflesh" ],
+    "symbol": "a",
+    "color": "yellow",
+    "aggression": -60,
+    "fear_triggers": [ "HURT", "FIRE", "PLAYER_CLOSE" ]
+    "morale": 50,
+    "melee_skill": 2,
+    "melee_dice": 1,
+    "melee_dice_sides": 3,
+    "melee_cut": 0,
+    "upgrades": { "age_grow": 3, "into": "mon_ant_acid" },
+    "death_function": [ "ACID", "NORMAL" ],
+    "harvest": "arachnid_acid",
+    "flags": [ "ACIDPROOF", "ACID_BLOOD", "LARVA", "HARDTOSHOOT", "NO_BREATHE", "POISON", "SMELLS", "GOODHEARING" ]
+  },
+]
