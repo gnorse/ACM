@@ -20,7 +20,7 @@
 ## Year 0:
 ### Month 4:
   
-- The larva that snuck onboard had evolved, captured and infected many crew members of the Providence. By the time they had noticed, the hive had grown to a considerable size and red alert was announced. The damage caused to the ship from the furious fighting that had ensued prevented them from knowing that the ship was right on top of an incoming energy rift. The USS Providence was destroyed and sent through the storm, but not before evacuation was called.
+- The larva onboard had evolved, captured and infected many crew members of the Providence. By the time they had noticed, the hive had grown to a considerable size and red alert was announced. The damage caused to the ship from the furious fighting that had ensued prevented them from knowing that the ship was right on top of an incoming energy rift. The USS Providence was destroyed and sent through the storm, but the ship's commanding officer had called for evacuation right before that happened.
 
 - Several escape pods were detected leaving the exploding ship and into the rift.
 
