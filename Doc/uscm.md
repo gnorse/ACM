@@ -1,4 +1,4 @@
-# A Design document indicating various uscm parameters
+# A Design document indicating various USCM parameters
 ## Factions:
 - uscm: united states colonial marines.
 
