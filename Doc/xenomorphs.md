@@ -5,8 +5,8 @@
 ## Species:
 - XENOMORPH_TINY: for xenomorphs with an extremely small size. (Larvae)
 - XENOMORPH: for most average Tier 1 and Tier 2 xenomorphs. Human sized. (Runners, Lurkers...)
-- XENOMORPH_BIG: for most tier 3 xenomorphs. Big size. (Praetorians, Crushers, Boilers...)
-- XENOMORPH_BIG_FIREIMMUNE: big xenomorphs that are fire immune. (Queen, Ravager)
+- XENOMORPH_BIG: for most tier 3 xenomorphs. Big size. ( Crushers, Boilers...)
+- XENOMORPH_BIG_FIREIMMUNE: big xenomorphs that are fire immune. (Queen, Praetorians, Ravager)
 
 ## Tiers:
 Tiers are, in a sense, how many times the xenomorph caste has evolved past a larva with the exception of the queen, who does not evolve and is not evolved into. Generally, the higher the tier, the stronger the xenomorph.
@@ -38,7 +38,7 @@ Most xenomorphs attack on sight, however those of the worker caste may hesitate 
 
 ### Frontliners: The main frontline combatans of the hive.
 - Defender: The rank and file grunt. Capable of shrugging off non-AP pistol-caliber fire. below average speed, below average damage, average health, below average dodge, high armor.
-- Warrior: The skirmisher. Is strong enough to grab most lifeforms and drag them around. average speed, average damage, average health, low dodge, above average armor. May leap, Will Grab and Drag.
+- Warrior: The skirmisher. Is strong enough to grab most lifeforms and drag them around. average speed, average damage, average health, low dodge, above average armor. has lunge, Will Grab and Drag.
 - Crusher: The tank. Capable of shrugging off most bullets. low speed, below average damage, high health, very low dodge, very high armor. May charge at the target.
 
 ### Ranged: Castes that have evolved to weaponize their acid into ranged attacks.
@@ -53,6 +53,7 @@ Most xenomorphs attack on sight, however those of the worker caste may hesitate 
 - Carrier: The infector. Capable of carrying multitudes of facehuggers, increasing the range of infection. below average speed, below average damage, average health, low dodge, below average armor. Carries facehuggers. Will call for help.
 
 ###  Royalty: Big baddies of the hive.
+- Praetorian: The royal guard. Although technically not royalty, they remain with their hive's leader at all times. average speed, above average damage, above average health, low dodge, average armor. Uses acid spit, has longswipe, will hulksmash the player. 
 - Queen: The ruler. Every hive has a queen. The only sentient caste. Has some acidic capability, a stunning screech and some psychic capabilities. below average speed, high damage, high health, very low dodge, above average armor. May spit acid, Will ocassionally emit a stunning screech, Will ocassionally fear the target.
 - Empress: The queen of queens. Every area with multiple hives has an empress. average speed, very high damage, very high health, very low dodge, high armor. May spit acid, Will ocassionally emit a stunning screech. Will grab and drag, Will fear the target.
 - Queen mother: The ruler of all. Extremely psionic. Practically the xenomorph god. above average speed, insane damage, insane health, low dodge, very high armor. Will spit acid, Will emit a stunning screech. Will grab and drag. Will pull. Will use a variety of psionics.
