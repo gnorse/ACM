@@ -1,0 +1,25 @@
+[
+  {
+    "id": "cm_454_heavy",
+    "type": "AMMO",
+    "name": { "str_sp": ".454 heavy" },
+    "description": ".454 heavy revolver rounds, custom-made for the mateba autorevolver. High density special alloys used in its construction lets it be heavy enough to daze most creatures on impact, while still having a substantial amount of stopping power.",
+    "weight": "30 g",
+    "volume": "80 ml",
+    "price": 2500,
+    "price_postapoc": 2000,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "steel", "powder" ],
+    "symbol": "=",
+    "color": "light_gray",
+    "count": 6,
+    "stack_size": 6,
+    "ammo_type": "454_special",
+    "casing": "454_casing",
+    "range": 16,
+    "damage": { "damage_type": "bullet", "amount": 44, "armor_penetration": 10 },
+    "dispersion": 30,
+    "recoil": 2800,
+    "effects": [ "COOKOFF", "LARGE_BEANBAG" ]
+  }
+]
