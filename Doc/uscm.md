@@ -50,7 +50,12 @@ Special tasks may see the squads adding more of one role and/or removing from an
 
 ### Marines: The ground forces.
 - Squad Leader: Highest rank amongst the squad. Relays info from command to his marines. 
-- Squad Specialist: Uses and maintains heavy weaponry.
+- Squad Specialist: Uses and maintains heavy weaponry. Come in 5 variants:
+  - Pyrotechnician: Uses an advanced flamethrower to provide area denial and clear xenomorph hives.
+  - Demolitionist: Uses the M5 RPG to take care of problems, from light tanks to infantry squads.
+  - Sniper: Provides long range fire support using the heavy-powered sniper at his disposal.
+  - Scout: Uses a DMR and an experimental stealth cloak to infiltrate past enemy lines.
+  - Grenadier: Uses a 6-round grenade launcher and near impenetrable armor to create openings for fellow marines.
 - Squad Smartgunner: Uses and maintains the smartgun, a modern suppressive-fire machingun.
 - Squad Medic: Is in charge of keeping (or attempting to keep) his squad in working condition.
 - Squad Engineer: Uses engineering knowledge to build barricades, bridges, repair, destroy and everything inbetween. In charge of the squad's AI-controlled weaponry if present.
