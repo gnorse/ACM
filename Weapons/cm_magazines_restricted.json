@@ -1,0 +1,19 @@
+[
+  {
+    "id": "cm_mateba_speedloader",
+    "looks_like": "38_speedloader",
+    "type": "MAGAZINE",
+    "name": { "str": ".454 mateba speedloader" },
+    "description": "This speedloader, custom-made for the mateba autorevolver, can hold 6 rounds of .454 or .454 special and quickly reload a compatible revolver.",
+    "weight": "108 g",
+    "volume": "250 ml",
+    "price": 3000,
+    "price_postapoc": 400,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "454", "454_special" ],
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "454": 6, "454_special": 6 } } ]
+  }
+]
