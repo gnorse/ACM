@@ -10,11 +10,11 @@
         "id" : "10x24mm",
         "name" : "10x24mm",
         "default" : "10x24mm"
-    }
+    },
 	{
         "type" : "ammunition_type",
         "id" : "454_special",
         "name" : "454 special",
         "default" : "cm_454_heavy"
-    },	
+    },
 ]
