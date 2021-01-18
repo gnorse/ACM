@@ -89,6 +89,7 @@
   {
     "id": "cm_bfa",
     "type": "GUNMOD",
+	"looks_like": "retool_ar15_300blk",
     "name": { "str": "burst fire assembly" },
     "description": "A small angled piece of fine machinery that grants 3-round burst capability to some weapons. Increases weapon scatter.",
     "weight": "113 g",
@@ -171,28 +172,6 @@
     "flags": [ "DISABLE_SIGHTS" ]
   },
   {
-    "id": "cm_quickfire",
-    "type": "GUNMOD",
-    "looks_like": "red_dot_sight",
-    "name": { "str": "quickfire adapter" },
-    "description": "An enhanced and upgraded loading mechanism to fire rounds more accurately and with less recoil. However, it also reduces the amount of bullets fired on burst.",
-    "weight": "400 g",
-    "volume": "250 ml",
-    "integral_volume": "0 ml",
-    "price": 50000,
-    "price_postapoc": 1500,
-    "install_time": "30 m",
-    "material": [ "plastic", "steel" ],
-    "symbol": ":",
-    "color": "dark_gray",
-    "location": "mechanism",
-    "mod_targets": [ "smg", "rifle" ],
-    "burst_modifier": -2	  
-    "dispersion_modifier": -60,
-    "recoil_modifier": -100, 
-    "min_skills": [ [ "weapon", 4 ], [ "gun", 2 ] ],
-  },
-  {
     "id": "cm_underbarrel_extinguisher",
     "type": "GUNMOD",
     "looks_like": "aux_flamer",
@@ -211,6 +190,7 @@
     "gun_data": {
       "ammo": "water",
       "skill": "launcher",
+	  "range": 4,
       "ranged_damage": { "damage_type": "stab", "amount": 1 },
       "dispersion": 350,
       "durability": 8,

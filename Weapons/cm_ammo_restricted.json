@@ -3,6 +3,7 @@
     "id": "cm_454_heavy",
     "type": "AMMO",
     "name": { "str_sp": ".454 heavy" },
+	"looks_like": "454_Casull",
     "description": ".454 heavy revolver rounds, custom-made for the mateba autorevolver. High density special alloys used in its construction lets it be heavy enough to daze most creatures on impact, while still having a substantial amount of stopping power.",
     "weight": "30 g",
     "volume": "80 ml",

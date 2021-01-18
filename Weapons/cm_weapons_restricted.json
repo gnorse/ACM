@@ -2,7 +2,7 @@
   {
     "id": "cm_mateba_providence",
     "copy-from": "pistol_revolver",
-    "looks_like": "sw_619",
+    "looks_like": "raging_bull",
     "type": "GUN",
     "name": { "str_sp": "Mateba autorevolver custom" },
     "description": "This version of the Mateba revolver is a limited edition produced for the USCM, and issued in extremely small amounts. This one has 'USS Providence, 3rd 'Hollow Hope' battalion' stamped on the side",
@@ -42,7 +42,9 @@
   },
   {
     "id": "cm_mateba_aliston",
+	"name": { "str_sp": "Mateba autorevolver custom" },
     "type": "GUN",
+	"looks_like": "raging_bull",
     "copy-from": "cm_mateba_providence",
     "description": "This version of the Mateba revolver is a limited edition produced for the USCM, and issued in extremely small amounts. This one has 'USS Aliston, Research division' stamped on the side"
   }

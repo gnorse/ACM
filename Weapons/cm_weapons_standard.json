@@ -60,7 +60,7 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "88mod_mag" ]
+        "item_restriction": [ "88mod_mag", "88mod_magext" ]
       }
     ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ]
