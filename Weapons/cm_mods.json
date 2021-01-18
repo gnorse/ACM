@@ -45,6 +45,27 @@
     "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ]
   },
   {
+    "id": "cm_grenade_launcher_mk1",
+	"looks_like": "m203",
+    "type": "GUNMOD",
+    "name": { "str_sp": "mk 1 underslung grenade launcher" },
+    "description": "An older generation underbarrel grenade launcher. Is custom-fitted for and comes standard with the M41A MK1 Pulse rifle. Compared to the newer grenade launcher, it holds 3 grenades instead of 1 but is less accurate.",
+    "weight": "1250 g",
+    "volume": "1200 ml",
+    "install_time": "7 m",  
+    "price": 20000,
+    "price_postapoc": 600,
+    "material": [ "steel", "plastic" ],
+    "acceptable_ammo": [ "10x24mm" ],
+    "symbol": ":",
+    "color": "light_red",
+    "location": "underbarrel",
+    "mod_targets": [ "m41a_mk1" ],
+    "gun_data": { "ammo": "40x46mm", "skill": "launcher", "dispersion": 400, "durability": 8, "clip_size": 3 },
+    "min_skills": [ [ "weapon", 2 ], [ "launcher", 1 ] ],
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ]
+  },	
+  {
     "id": "cm_barrel_charger",
     "type": "GUNMOD",
     "name": { "str": "barrel charger" },
