@@ -1,19 +1,19 @@
 [
 	{
         "type" : "ammunition_type",
-        "id" : "10x20mm",
+        "id" : "cm_10x20mm",
         "name" : "10x20mm",
-        "default" : "10x20mm_hv"
+        "default" : "cm_10x20mm_hv"
     },
 	{
         "type" : "ammunition_type",
-        "id" : "10x24mm",
+        "id" : "cm_10x24mm",
         "name" : "10x24mm",
-        "default" : "10x24mm"
+        "default" : "cm_10x24mm"
     },
 	{
         "type" : "ammunition_type",
-        "id" : "454_special",
+        "id" : "cm_454_special",
         "name" : "454 special",
         "default" : "cm_454_heavy"
     }
