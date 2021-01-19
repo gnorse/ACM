@@ -15,7 +15,7 @@
     "color": "light_gray",
     "count": 6,
     "stack_size": 6,
-    "ammo_type": "454_special",
+    "ammo_type": "cm_454_special",
     "casing": "454_casing",
     "range": 16,
     "damage": { "damage_type": "bullet", "amount": 44, "armor_penetration": 10 },
