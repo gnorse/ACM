@@ -12,9 +12,9 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "454", "454_special" ],
+    "ammo_type": [ "454", "cm_454_special" ],
     "flags": [ "SPEEDLOADER" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "454": 6, "454_special": 6 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "454": 6, "cm_454_special": 6 } } ]
   },
   {
     "id": "cm_m41a_heavy_mag",
@@ -30,11 +30,11 @@
     "material": [ "steel", "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "10x24mm",
+    "ammo_type": "cm_10x24mm",
     "flags": [ "MAG_BULKY" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10x24mm": 300 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cm_10x24mm": 300 } } ],
     "reliability": 6
-	},
+  },
   {
     "id": "cm_m41a_mk1_mag",
     "looks_like": "stanag30",
@@ -49,9 +49,9 @@
     "material": [ "steel", "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "10x24mm",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10x24mm": 95 } } ],
+    "ammo_type": "cm_10x24mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cm_10x24mm": 95 } } ],
     "flags": [ "MAG_BULKY" ],
     "reliability": 8
-	}
+  }
 ]
