@@ -22,5 +22,19 @@
     "dispersion": 30,
     "recoil": 2800,
     "effects": [ "COOKOFF", "LARGE_BEANBAG" ]
+  },
+  {
+    "id": "cm_9mm_squashhead",
+    "copy-from": "9mm",
+    "ammo_type": "cm_9mm_special",
+    "type": "AMMO",
+    "name": { "str_sp": "9mm squash head" },
+    "description": "9mm squash-head ammunition. Boasts superior damage and armor penetration in exchange for higher recoil and lower accuracy.",
+    "price": 400,
+    "price_postapoc": 1200,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "count": 18,
+    "relative": { "damage": { "damage_type": "bullet", "amount": 5, "armor_penetration": 5 }, "dispersion": 30 },
+    "proportional": { "recoil": 1.2 }
   }
 ]
