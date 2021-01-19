@@ -143,5 +143,98 @@
         "item_restriction": [ "cm_m41a_mk1_mag" ]
       }
     ]
+  },
+  {
+    "id": "cm_vp78",
+	"looks_like": "usp_45",
+    "copy-from": "88mod",
+    "type": "GUN",
+    "name": { "str": "vp78 pistol" },
+    "description": "The weyland-yutani VP78 pistol is a machine pistol designed as a replacement for the outdated service pistol. Capable of chambering both regular 9mm rounds and specially-designed squash-head rounds. ",
+    "weight": "920 g",
+    "volume": "600 ml",
+    "price": 100000,
+    "price_postapoc": 5000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic" ],
+    "color": "dark_gray",
+    "ammo": [ "9mm", "cm_9mm_special" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 440,
+    "durability": 7,
+    "blackpowder_tolerance": 48,
+    "min_cycle_recoil": 350,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "cm_vp78_mag" ]
+      }
+    ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ]
+  },
+  {
+    "id": "cm_mk221",
+    "copy-from": "shotgun_base",
+    "type": "GUN",
+    "name": { "str": "MK221 tactical shotgun" },
+    "description": "A unique corporate made semi-automatic shotgun with a rapid fire rate. Capable of holding 8 shells.",
+    "weight": "4400 g",
+    "volume": "2768 ml",
+    "longest_side": "835 mm",
+    "looks_like": "m1014",
+    "price": 180000,
+    "price_postapoc": 4750,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "wood" ],
+    "dispersion": 380,
+    "durability": 6,
+    "clip_size": 8,
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "built_in_mods": [ "cm_grenade_launcher" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip mount", 1 ],
+      [ "mechanism", 2 ],
+      [ "muzzle", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "flags": [ "RELOAD_ONE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 8 } } ]
+  },
+  {
+    "id": "cm_breakaction",
+    "copy-from": "cm_m37",
+    "looks_like": "remington_870",
+    "type": "GUN",
+    "name": { "str": "MOU53 break-action shotgun" },
+    "description": "A limited production Kerchner MOU53 double break action classic shotgun. Able to fire both barrels at once.",
+    "ascii_picture": "db_pipe_gun",
+    "clip_size": 2,
+    "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "relative": { "weight": "500 g", "volume": "250 ml", "price": 5000, "dispersion": -30, "ranged_damage": -4 },
+    "barrel_volume": "72 ml",
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "sling", 1 ],
+      [ "stock mount", 1 ],
+      [ "barrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "extend": { "flags": [ "RELOAD_ONE" ] },
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 2 } } ]
   }
 ]
