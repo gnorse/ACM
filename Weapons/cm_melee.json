@@ -1,10 +1,10 @@
 [
   {
-    "id": "m5",
+    "id": "cm_m5",
 	"looks_like": "knife_combat",
     "type": "TOOL",
     "category": "weapons",
-    "name": { "str": "M5 'Night Raider' Knife", "str_pl": "M5 'Night Raider' Knives" },
+    "name": { "str": "M5 'night raider' knife", "str_pl": "M5 'night raider' knives" },
     "description": "The standard issue bayonet knife issued to Colonial Marines. very useful for cutting through materials as well as grass and good as a last resort versus enemies. can be attached to weapons that allow bayonets on the muzzle.",
     "weight": "600 g",
     "volume": "400 ml",
@@ -29,7 +29,7 @@
     "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_KNIFE", "NPC_THROWN" ]
   },
   {
-    "id": "m2132",
+    "id": "cm_m2132",
 	"looks_like": "machete",
     "type": "TOOL",
     "category": "weapons",
