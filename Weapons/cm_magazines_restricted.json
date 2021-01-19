@@ -15,5 +15,43 @@
     "ammo_type": [ "454", "454_special" ],
     "flags": [ "SPEEDLOADER" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "454": 6, "454_special": 6 } } ]
-  }
+  },
+  {
+    "id": "cm_m41a_heavy_mag",
+    "looks_like": "stanag150",
+  	"copy-from": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "M41AE2 drum magazine" },
+    "description": "A semi-rectangular box of rounds for the M41AE2 heavy pulse rifle. Holds 300 10x24mm rounds.",
+    "weight": "2700 g",
+    "volume": "2800 ml",
+    "price": 18000,
+    "price_postapoc": 6000,
+    "material": [ "steel", "plastic" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "10x24mm",
+    "flags": [ "MAG_BULKY" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10x24mm": 300 } } ],
+    "reliability": 6
+	},
+  {
+    "id": "cm_m41a_mk1_mag",
+    "looks_like": "stanag30",
+  	"copy-from": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "M41A MK1 magazine" },
+    "description": "A 10x24mm rifle magazine. holds 95 10x24mm rounds for use with the M41A pulse rifle MK1.",
+    "weight": "380 g",
+    "volume": "1400 ml",
+    "price": 10000,
+    "price_postapoc": 300,
+    "material": [ "steel", "plastic" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "10x24mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10x24mm": 95 } } ],
+    "flags": [ "MAG_BULKY" ],
+    "reliability": 8
+	}
 ]
