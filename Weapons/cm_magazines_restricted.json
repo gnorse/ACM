@@ -53,5 +53,24 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cm_10x24mm": 95 } } ],
     "flags": [ "MAG_BULKY" ],
     "reliability": 8
-  }
+  },
+ 	{
+    "id": "cm_vp78_mag",
+    "looks_like": "glock17_17",
+  	"copy-from": "glockmag",
+    "type": "MAGAZINE",
+    "name": { "str": "vp78 magazine" },
+    "description": "A 9mm magazine capable of holding 18 rounds, for use with the vp78 machine pistol. Capable of loading both regular 9mm and squash-head 9mm",
+    "weight": "140 g",
+    "volume": "300 ml",
+    "price": 3000,
+    "price_postapoc": 180,
+    "material": "aluminum",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "9mm", "cm_9mm_special" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 18, "cm_9mm_special": 18 } } ],
+    "reliability": 9,
+    "flags": [ "MAG_COMPACT" ]
+	}
 ]
