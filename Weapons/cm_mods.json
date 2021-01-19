@@ -27,7 +27,7 @@
 	"looks_like": "m203",
     "type": "GUNMOD",
     "name": { "str_sp": "underslung grenade launcher" },
-    "description": "An underbarrel-mounted grenade launcher that comes standard-issue with the M41A pulse rifle. Adds the ability to fire one M40 tube grenade of any kind. Being custom-made for the pulse rifle series, it is unable to be installed on other guns.",
+    "description": "An underbarrel-mounted grenade launcher that comes standard-issue with the M41A pulse rifle. Adds the ability to fire one M40 tube grenade of any kind. Being custom-made with very specific weapons in mind, it is unable to be installed on most guns.",
     "weight": "1250 g",
     "volume": "500 ml",
     "install_time": "5 m",  
