@@ -16,5 +16,11 @@
         "id" : "cm_454_special",
         "name" : "454 special",
         "default" : "cm_454_heavy"
+    },
+    {
+        "type" : "ammunition_type",
+        "id" : "cm_9mm_special",
+        "name" : "9mm special",
+        "default" : "cm_9mm_squashhead"
     }
 ]
