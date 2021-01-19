@@ -1,6 +1,6 @@
 [ 
   {
-    "id": "m4a3_mag",
+    "id": "cm_m4a3_mag",
     "looks_like": "glock17_17",
 	"copy-from": "glockmag",
     "type": "MAGAZINE",
@@ -19,7 +19,7 @@
     "flags": [ "MAG_COMPACT" ]
 	},
 	{
-    "id": "88mod_mag",
+    "id": "cm_88mod_mag",
     "looks_like": "glock17_17",
 	"copy-from": "glockmag",
     "type": "MAGAZINE",
@@ -38,7 +38,7 @@
     "flags": [ "MAG_COMPACT" ]
 	},
 	{
-    "id": "88mod_magext",
+    "id": "cm_88mod_magext",
     "looks_like": "glock17_17",
 	"copy-from": "glockmag",
     "type": "MAGAZINE",
@@ -57,7 +57,7 @@
     "flags": [ "MAG_COMPACT" ]
 	},
     {
-    "id": "44_speedloader7",
+    "id": "cm_44_speedloader7",
     "looks_like": "38_speedloader",
     "type": "MAGAZINE",
     "name": { "str": ".44 7-round speedloader" },
@@ -74,7 +74,7 @@
     "flags": [ "SPEEDLOADER" ]
     },
 	{
-    "id": "m39_mag",
+    "id": "cm_m39_mag",
     "looks_like": "mp5mag",
 	"copy-from": "glockmag",
     "type": "MAGAZINE",
@@ -87,12 +87,12 @@
     "material": [ "steel", "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "10x20mm",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10x20mm": 48 } } ],
+    "ammo_type": "cm_10x20mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cm_10x20mm": 48 } } ],
     "reliability": 9
 	},
 	{
-    "id": "m39_magext",
+    "id": "cm_m39_magext",
     "looks_like": "mp5mag",
 	"copy-from": "glockmag",
     "type": "MAGAZINE",
@@ -105,13 +105,13 @@
     "material": [ "steel", "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "10x20mm",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10x20mm": 72 } } ],
+    "ammo_type": "cm_10x20mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cm_10x20mm": 72 } } ],
     "reliability": 8,
     "flags": [ "MAG_BULKY" ]
 	},
     {
-    "id": "m41a_mag",
+    "id": "cm_m41a_mag",
     "looks_like": "stanag30",
 	"copy-from": "stanag30",
     "type": "MAGAZINE",
@@ -124,12 +124,12 @@
     "material": [ "steel", "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "10x24mm",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10x24mm": 40 } } ],
+    "ammo_type": "cm_10x24mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cm_10x24mm": 40 } } ],
     "reliability": 8
 	},
 	{
-    "id": "m41a_magext",
+    "id": "cm_m41a_magext",
     "looks_like": "stanag30",
 	"copy-from": "stanag60",
     "type": "MAGAZINE",
@@ -142,13 +142,13 @@
     "material": ["steel", "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "10x24mm",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10x24mm": 60 } } ],
+    "ammo_type": "cm_10x24mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cm_10x24mm": 60 } } ],
     "reliability": 7,
     "flags": [ "MAG_BULKY" ]
 	},
     {
-    "id": "l42a_mag",
+    "id": "cm_l42a_mag",
     "looks_like": "stanag30",
 	"copy-from": "stanag30",
     "type": "MAGAZINE",
@@ -161,12 +161,12 @@
     "material": [ "steel", "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "10x24mm",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10x24mm": 25 } } ],
+    "ammo_type": "cm_10x24mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cm_10x24mm": 25 } } ],
     "reliability": 8
 	},
 	{
-    "id": "l42a_magext",
+    "id": "cm_l42a_magext",
     "looks_like": "stanag30",
 	"copy-from": "stanag60",
     "type": "MAGAZINE",
@@ -179,8 +179,8 @@
     "material": ["steel", "plastic" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "10x24mm",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10x24mm": 35 } } ],
+    "ammo_type": "cm_10x24mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cm_10x24mm": 35 } } ],
     "reliability": 7
 	}
 ]
