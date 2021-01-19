@@ -1,7 +1,7 @@
 [
   {
     "type": "MONSTER_FACTION",
-    "name": "xenomorph",
+    "name": "cm_xenomorph",
     "//": "TODO assign base faction and/or attitude"
   }
 ]
