@@ -16,7 +16,7 @@
     "material": [ "steel", "wood" ],
     "symbol": "(",
     "color": "light_gray",
-    "ammo": [ "454", "454_special" ],
+    "ammo": [ "454", "cm_454_special" ],
     "dispersion": 280,
     "durability": 7,
     "blackpowder_tolerance": 56,
@@ -35,7 +35,7 @@
       {
         "pocket_type": "MAGAZINE",
         "holster": true,
-        "ammo_restriction": { "454": 6, "454_special": 6 },
+        "ammo_restriction": { "454": 6, "cm_454_special": 6 },
         "allowed_speedloaders": [ "454_speedloader6", "cm_mateba_speedloader" ]
       }
     ]
@@ -66,7 +66,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "10x24mm",
+    "ammo": "cm_10x24mm",
     "skill": "rifle",
     "ranged_damage": { "damage_type": "bullet", "amount": 0 },
     "dispersion": 210,
@@ -117,7 +117,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "10x24mm",
+    "ammo": "cm_10x24mm",
     "skill": "rifle",
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "dispersion": 200,
