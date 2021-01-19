@@ -1,10 +1,10 @@
 [
   {
-    "id": "m4a3",
+    "id": "cm_m4a3",
 	"looks_like": "glock_17",
     "copy-from": "m9",
     "type": "GUN",
-    "name": { "str": "M4A3 Service Pistol" },
+    "name": { "str": "M4A3 service pistol" },
     "description": "The Armat M4A3 Service Pistol is an American-made semi-automatic, recoil operated, magazine-fed pistol chambered for 9mm ammunition. It was notably employed by the United States Colonial Marine Corps as their standard issue sidearm.",
     "weight": "786 g",
     "volume": "540 ml",
@@ -28,16 +28,16 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "m4a3_mag" ]
+        "item_restriction": [ "cm_m4a3_mag" ]
       }
     ]
   },
   {
-    "id": "88mod",
+    "id": "cm_88mod",
 	"looks_like": "usp_45",
     "copy-from": "m4a3",
     "type": "GUN",
-    "name": { "str": "88 Mod 4 Combat Pistol" },
+    "name": { "str": "88 mod 4 combat pistol" },
     "description": "A rapid-fire, blowback-operated, striker-fired sidearm issued to the USCM in small numbers. Fires 9mm rounds and is capable of 3-round burst.",
     "weight": "820 g",
     "volume": "530 ml",
@@ -60,17 +60,17 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "88mod_mag", "88mod_magext" ]
+        "item_restriction": [ "cm_88mod_mag", "cm_88mod_magext" ]
       }
     ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ]
   },
   {
-    "id": "m44",
+    "id": "cm_m44",
     "copy-from": "pistol_revolver",
     "looks_like": "sw_619",
     "type": "GUN",
-    "name": { "str_sp": "M44 Combat Revolver" },
+    "name": { "str_sp": "M44 combat revolver" },
     "description": "A bulky revolver, occasionally carried by assault troops and officers in the Colonial Marines, as well civilian law enforcement. Fires .44 Magnum rounds.",
     "weight": "1267 g",
     "volume": "750 ml",
@@ -94,7 +94,7 @@
         "holster": true,
         "rigid": true,
         "ammo_restriction": { "44": 7 },
-        "allowed_speedloaders": [ "44_speedloader7" ]
+        "allowed_speedloaders": [ "cm_44_speedloader7" ]
       }
     ],
     "valid_mod_locations": [
@@ -110,12 +110,12 @@
     ]
   },
   {
-    "id": "m39",
+    "id": "cm_m39",
     "copy-from": "smg_base",
     "looks_like": "skorpion_82",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": { "str_sp": "M39 Submachine Gun" },
+    "name": { "str_sp": "M39 submachine gun" },
     "description": "The Armat Battlefield Systems M-39 submachinegun. Occasionally carried by light-infantry, scouts, engineers and medics. A lightweight, lower caliber alternative to the various Pulse weapons used the USCM. Fires 10x20mm rounds.",
     "weight": "2270 g",
     "volume": "2700 ml",
@@ -128,7 +128,7 @@
     "material": "steel",
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "10x20mm",
+    "ammo": "cm_10x20mm",
     "skill": "smg",
     "ranged_damage": { "damage_type": "bullet", "amount": 0 },
     "dispersion": 140,
@@ -157,16 +157,16 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "m39_mag", "m39_magext" ]
+        "item_restriction": [ "cm_m39_mag", "cm_m39_magext" ]
       }
     ]
   },
   {
-    "id": "m41a",
+    "id": "cm_m41a",
     "copy-from": "rifle_semi",
     "looks_like": "needlegun",
     "type": "GUN",
-    "name": { "str_sp": "M41A Pulse Rifle MK2" },
+    "name": { "str_sp": "M41A pulse rifle MK2" },
     "description": "The Armat M41A Pulse Rifle MK2 is an American-made pulse-action assault rifle chambered for 10×24mm Caseless ammunition. It is the successor to the venerable M41A Pulse Rifle, sacrificing damage and magazine size in favor of greatly increased modular customization options.",
     "weight": "3150 g",
     "volume": "3250 ml",
@@ -179,7 +179,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "10x24mm",
+    "ammo": "cm_10x24mm",
     "skill": "rifle",
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "dispersion": 170,
@@ -208,17 +208,17 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "m41a_mag", "m41a_magext" ]
+        "item_restriction": [ "cm_m41a_mag", "cm_m41a_magext" ]
       }
     ]
   },
   {
-    "id": "l42a",
+    "id": "cm_l42a",
     "copy-from": "rifle_semi",
     "looks_like": "sten",
     "type": "GUN",
 	"range": 24,
-    "name": { "str_sp": "L42A Battle Rifle" },
+    "name": { "str_sp": "L42A battle rifle" },
     "description": "A non-standard alternative to the standard issue M41A-MK2 available to the jarheads of the USCM. Renowned for its high accuracy and superior stopping power compared to other rifles.",
     "weight": "3300 g",
     "volume": "2950 ml",
@@ -231,7 +231,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "10x24mm",
+    "ammo": "cm_10x24mm",
     "skill": "rifle",
     "ranged_damage": { "damage_type": "bullet", "amount": 1 },
     "dispersion": 150,
@@ -244,16 +244,16 @@
         "holster": true,
         "max_contains_volume": "20 L",
         "max_contains_weight": "20 kg",
-        "item_restriction": [ "l42a_mag", "l42a_magext" ]
+        "item_restriction": [ "cm_l42a_mag", "cm_l42a_magext" ]
       }
     ]
   },
   {
-    "id": "m37",
+    "id": "cm_m37",
     "copy-from": "shotgun_pump_3gun",
     "looks_like": "remington_870",
     "type": "GUN",
-    "name": { "str_sp": "M37A2 Pump Shotgun" },
+    "name": { "str_sp": "M37A2 pump shotgun" },
     "description": "The Armat M37A2 Pump Shotgun is an American-made pump action combat shotgun, its classic pump action allow extremely powerful shells to be fired reliably.",
     "weight": "3180 g",
     "volume": "2500 ml",
