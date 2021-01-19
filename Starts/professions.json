@@ -9,7 +9,7 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "cm_mags_pulsemk2",
-    "entries": [ { "item": "m41a_mag", "ammo-item": "10x24mm", "charges": 40 }, { "item": "m41a_mag", "ammo-item": "10x24mm", "charges": 40 } ]
+    "entries": [ { "item": "cm_m41a_mag", "ammo-item": "cm_10x24mm", "charges": 40 }, { "item": "cm_m41a_mag", "ammo-item": "cm_10x24mm", "charges": 40 } ]
   },
   {
     "type": "profession",
@@ -33,15 +33,15 @@
           "socks",
           "boots_combat",
           "wristwatch",
-		  "light_disposable_cell",
+	  "light_disposable_cell",
           "mre_beef_box"
         ],
         "entries": [
           { "item": "cm_belt_ammo", "contents-group": "cm_mags_pulsemk2" },
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "cm_pouch_firstaid", "contents-group": "cm_basic_firstaid" },
-          { "item": "m5", "container-item": "sheath" },
-          { "item": "m41a", "ammo-item": "10x24mm", "charges": 40, "contents-item": [ "shoulder_strap" ] }
+          { "item": "cm_m5", "container-item": "sheath" },
+          { "item": "cm_m41a", "ammo-item": "cm_10x24mm", "charges": 40, "contents-item": [ "shoulder_strap" ] }
         ]
       },
       "male": [ "boxer_shorts" ],
