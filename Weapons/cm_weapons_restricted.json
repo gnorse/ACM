@@ -88,7 +88,7 @@
     ],
     "min_cycle_recoil": 800,
     "modes": [ [ "DEFAULT", "burst", 3 ], [ "AUTO", "auto", 10 ] ],
-    "flags": [ "SLOW_WIELD" ]
+    "flags": [ "SLOW_WIELD" ],
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
