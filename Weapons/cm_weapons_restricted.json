@@ -236,5 +236,51 @@
     ],
     "extend": { "flags": [ "RELOAD_ONE" ] },
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 2 } } ]
+  },
+  {
+    "id": "cm_flamethrower",
+    "copy-from": "gun_base",
+    "looks_like": "flamethrower",	  
+    "type": "GUN",
+    "reload_noise": "slosh.",
+    "name": { "str": "M240 incinerator unit" },
+    "skill": "launcher",
+    "ammo": [ "flammable" ],
+    "ammo_effects": [ "FLARE" ],
+    "reload": 4,
+    "flags": [ "NEVER_JAMS", "FIRESTARTER" ],
+    "ammo_to_fire": 100,
+    "faults": [  ]
+    "description": "The M240 incinerator unit is a carbine-style flamethrower employed by the USCM.",
+    "weight": "1650 g",
+    "volume": "4 L",
+    "longest_side": "100 cm",
+    "price": 80000,
+    "price_postapoc": 6000,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [ "steel" ],
+    "range": 7,
+    "dispersion": 300,
+    "durability": 8,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "valid_mod_locations": [
+      [ "accessories", 1 ],
+      [ "grip", 1 ],
+      [ "sling", 1 ],
+      [ "rail mount", 1 ],
+      [ "stock mount", 1 ],
+      [ "sights mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "cm_flamethrower_tank" ]
+      }
+    ]	  
   }
 ]
