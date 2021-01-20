@@ -95,5 +95,45 @@
     "environmental_protection": 1,
     "valid_mods": [ "steel_padded" ],
     "flags": [ "POCKETS", "STURDY", "OUTER" ]
+  },
+  {
+    "id": "cm_armor_commander_providence",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "M2-S pattern officer armor" },
+    "description": "A well-crafted suit of M2 pattern armor typically found in the hands of higher-ranking USCM officers. This one is heavier and has 'USS Providence' written on its torso.",
+    "weight": "7500 g",
+    "volume": "13000 ml",
+    "price": 25000,
+    "price_postapoc": 4000,
+    "to_hit": -5,
+    "bashing": 2,
+    "material": [ "kevlar_layered", "steel" ],
+    "symbol": "[",
+    "looks_like": "armor_riot",
+    "color": "dark_gray",
+    "armor_portion_data": [
+      { "covers": [ "torso" ], "coverage": 95, "encumbrance": [ 15, 24 ] },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 85, "encumbrance": [ 15, 15 ] },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 85, "encumbrance": [ 15, 15 ] }
+    ],
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 70 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 70 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "moves": 70 }
+    ],
+    "warmth": 20,
+    "material_thickness": 5,
+    "environmental_protection": 3,
+    "valid_mods": [ "steel_padded" ],
+    "flags": [ "POCKETS", "STURDY", "OUTER" ]
+  },
+  {
+    "id": "cm_armor_commander_aliston",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "M2-S pattern officer armor" }, 
+    "copy_from": "cm_armor_commander_providence",
+    "description": "A well-crafted suit of M2 pattern armor typically found in the hands of higher-ranking USCM officers. This one is heavier and has 'USS Aliston' written on its torso."
   }
 ]
