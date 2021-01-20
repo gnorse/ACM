@@ -282,5 +282,41 @@
         "item_restriction": [ "cm_flamethrower_tank" ]
       }
     ]	  
+  },
+  {
+    "id": "cm_m46c",
+    "copy-from": "cm_m41a",
+    "looks_like": "needlegun",
+    "type": "GUN",
+    "name": { "str_sp": "M46C pulse rifle" },
+    "description": "A custom made, limited-edition prototype of the pulse rifle series given to senior officers for field-testing. Capable of loading both MK1 and MK2 magazines.",
+    "relative": { "weight": "300 g", "volume": "250 ml", "price": 10000, "dispersion": -30, "ranged_damage": 1 },
+    "durability": 8,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "muzzle", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "min_cycle_recoil": 800,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "4 rd.", 4 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "cm_m41a_mag", "cm_m41a_magext", "cm_m41a_mk1_mag"  ]
+      }
+    ]
   }
 ]
