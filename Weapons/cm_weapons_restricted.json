@@ -250,7 +250,7 @@
     "reload": 4,
     "flags": [ "NEVER_JAMS", "FIRESTARTER" ],
     "ammo_to_fire": 100,
-    "faults": [  ]
+    "faults": [  ],
     "description": "The M240 incinerator unit is a carbine-style flamethrower employed by the USCM.",
     "weight": "1650 g",
     "volume": "4 L",
