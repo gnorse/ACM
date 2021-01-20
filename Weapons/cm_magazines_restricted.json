@@ -54,7 +54,7 @@
     "flags": [ "MAG_BULKY" ],
     "reliability": 8
   },
- 	{
+  {
     "id": "cm_vp78_mag",
     "looks_like": "glock17_17",
   	"copy-from": "glockmag",
@@ -72,5 +72,22 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 18, "cm_9mm_special": 18 } } ],
     "reliability": 9,
     "flags": [ "MAG_COMPACT" ]
-	}
+  },
+  {
+    "id": "cm_flamethrower_tank",
+    "type": "MAGAZINE",
+    "name": { "str": "pressurized flamethrower canister" },
+    "looks_like": "pressurized_tank",
+    "description": "A airtight flamethrower tank for use with the M240 incinerator.",
+    "weight": "600 g",
+    "volume": "2 L",
+    "price": 5000,
+    "price_postapoc": 300,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "flammable" ],
+    "reload_time": 3,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "flammable": 2000 }, "watertight": true } ]
+  }
 ]
