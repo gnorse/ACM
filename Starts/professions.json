@@ -8,9 +8,27 @@
   {
     "type": "item_group",
     "subtype": "collection",
+    "id": "cm_basic_tools",
+    "entries": [ { "item": "screwdriver_set" }, { "item": "wrench" }, { "item": "crowbar" }, { "item": "hammer"} ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
     "id": "cm_mags_pulsemk2",
     "entries": [ { "item": "cm_m41a_mag", "ammo-item": "cm_10x24mm", "charges": 40 }, { "item": "cm_m41a_mag", "ammo-item": "cm_10x24mm", "charges": 40 } ]
   },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "cm_mags_m4a3",
+    "entries": [ { "item": "cm_m4a3_mag", "ammo-item": "9mm", "charges": 9 }, { "item": "cm_m4a3_mag", "ammo-item": "9mm", "charges": 9 } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "cm_mags_m41a_mk1",
+    "entries": [ { "item": "cm_m41a_mk1_mag", "ammo-item": "cm_10x24mm", "charges": 95 } ]
+  },	
   {
     "type": "profession",
     "id": "cm_marine",
@@ -42,6 +60,88 @@
           { "item": "cm_pouch_firstaid", "contents-group": "cm_basic_firstaid" },
           { "item": "cm_m5", "container-item": "sheath" },
           { "item": "cm_m41a", "ammo-item": "cm_10x24mm", "charges": 40, "contents-item": [ "shoulder_strap" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "cm_engineer",
+    "name": "USCM Delta Squad Engineer",
+    "description": "a USCM marine engineer belonging to delta squad. You were responsible for building barricades, maintaining sentries and repairing vehicles. Perhaps you still are, if you can regroup with your squad.",
+    "points": 6,
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "pistol" },
+      { "level": 4, "name": "mechanics" }
+      { "level": 4, "name": "fabrication" },
+      { "level": 1, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+	  "cm_helmet_technician",
+          "cm_uniform_marine",
+          "cm_armor_standard",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "mre_beef_box",
+	  "e_tool"
+        ],
+        "entries": [
+          { "item": "tool_belt", "contents-group": "cm_basic_tools" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "cm_pouch_firstaid", "contents-group": "cm_basic_firstaid" },
+          { "item": "cm_m5", "container-item": "sheath" },
+          { "item": "cm_m4a3", "ammo-item": "9mm", "charges": 9, "container-item": "holster" },
+	  { "item": "legpouch_large", "contents-group": "cm_mags_m4a3" },
+	  { "group": "charged_flashlight" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "cm_sl",
+    "name": "USCM Delta Squad Leader",
+    "description": "The USCM marine leader of delta squad. A veteran of several engagements, you were responsible for leading your squad through thick and thin and making sure they return in one piece. Although you're not sure where delta is now, you're determined to find them. Well, what remains of them.",
+    "points": 6,
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 2, "name": "rifle" },
+
+      { "level": 3, "name": "speech" },
+      { "level": 2, "name": "stabbing" },
+      { "level": 3, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+	  "cm_helmet_leader",
+          "cm_uniform_marine",
+          "cm_armor_leader",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "mre_beef_box",
+	  "binoculars",
+	  "light_disposable_cell"
+        ],
+        "entries": [
+
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "group": "full_1st_aid" },
+          { "item": "cm_m5", "container-item": "sheath" },
+
+	  { "item": "legpouch_large", "contents-group": "cm_mags_m41a_mk1" },
+	  { "item": "cm_m41a_mk1", "ammo-item": "cm_10x24mm", "charges": 95, "contents-item": [ "shoulder_strap" ] }
         ]
       },
       "male": [ "boxer_shorts" ],
