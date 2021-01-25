@@ -99,7 +99,8 @@
           { "item": "cm_m5", "container-item": "sheath" },
           { "item": "cm_m4a3", "ammo-item": "9mm", "charges": 9, "container-item": "holster" },
 	  { "item": "legpouch_large", "contents-group": "cm_mags_m4a3" },
-	  { "group": "charged_flashlight" }
+	  { "group": "charged_flashlight" },
+	  { "item": "medium_battery_cell", "ammo-item": "battery", "charges": 500, "container-item": "welder" }
         ]
       },
       "male": [ "boxer_shorts" ],
