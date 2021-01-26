@@ -1,0 +1,36 @@
+[
+  {
+    "id": "cm_10x28mm_am",
+    "looks_like": "50bmg",
+    "type": "AMMO",
+    "name": { "str_sp": "10x28mm anti-material" },
+    "description": "10x28mm caseless plasteel core special-alloy penetrator.  Designed for engaging heavy body-armor and light tanks, it is capable of piercing most forms of protection with massive stopping power, however the recoil and noise produced is something to keep in mind. Being caseless, it cannot be disassembled or handloaded.",
+    "weight": "120 g",
+    "volume": "460 ml",
+    "price": 2500,
+    "price_postapoc": 4000,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "brass", "powder" ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "count": 6,
+    "stack_size": 6,
+    "ammo_type": "cm_10x28mm",
+    "range": 110,
+    "damage": { "damage_type": "bullet", "amount": 140, "armor_penetration": 35 },
+    "dispersion": 155,
+    "recoil": 30000,
+    "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
+  },
+  {
+    "id": "cm_10x28mm_inc",
+    "looks_like": "50bmg",
+    "type": "AMMO",
+    "name": { "str_sp": "10x28mm incindiary" },
+    "description": "10x28mm caseless plasteel core special-alloy penetrator. the tip contains a viotile mix that ignites on impact, causing flammable objects to catch fire.",
+    "copy-from": "cm_10x28mm_am",
+    "effects": [ "INCENDIARY" ],
+    "relative": { "damage": { "damage_type": "bullet", "amount": -10, "armor_penetration": -10 } },
+    "dispersion": 165
+  }
+]
