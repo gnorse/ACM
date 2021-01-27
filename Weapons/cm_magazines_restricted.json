@@ -89,5 +89,23 @@
     "ammo_type": [ "flammable" ],
     "reload_time": 3,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "flammable": 2000 }, "watertight": true } ]
-  }
+  },
+  {
+    "id": "cm_m4ra_mag",
+    "looks_like": "stanag30",
+  	"copy-from": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "M4RA magazine" },
+    "description": "A 10x24mm rifle magazine for the M4RA battle rifle. capable of holding 25 10x24mm or high velocity a19 rounds.",
+    "weight": "120 g",
+    "volume": "500 ml",
+    "price": 9000,
+    "price_postapoc": 300,
+    "material": [ "steel", "plastic" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "cm_10x24mm", "cm_a19" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "cm_10x24mm": 25, "cm_a19": 25 } } ],
+    "reliability": 8
+	}
 ]
