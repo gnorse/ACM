@@ -318,5 +318,54 @@
         "item_restriction": [ "cm_m41a_mag", "cm_m41a_magext", "cm_m41a_mk1_mag"  ]
       }
     ]
+  },
+  {
+    "id": "cm_m4ra",
+    "copy-from": "rifle_semi",
+    "looks_like": "needlegun",
+    "type": "GUN",
+    "name": { "str_sp": "M4RA battle rifle" },
+    "description": "The Armat M4RA battle rifle is an american-made bullpup battle rifle employed by the USCM as a mid-to-long range alternative to the M41A",
+    "weight": "3350 g",
+    "volume": "350 ml",
+    "longest_side": "800 mm",
+    "price": 300000,
+    "price_postapoc": 6000,
+    "to_hit": -1,
+	"reload": 600,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": [ "cm_10x24mm", "cm_a19" ],
+    "skill": "rifle",
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "dispersion": 150,
+    "durability": 6,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 2 ],
+      [ "magazine", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "min_cycle_recoil": 800,
+	"default_mods": [ "acog_scope" ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "cm_m41a_mag", "cm_m4ra_mag" ]
+      }
+    ]
   }
 ]
