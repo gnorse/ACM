@@ -36,5 +36,28 @@
     "count": 18,
     "relative": { "damage": { "damage_type": "bullet", "amount": 5, "armor_penetration": 5 }, "dispersion": 30 },
     "proportional": { "recoil": 1.2 }
+  },
+  {
+    "id": "cm_a19_hv",
+    "looks_like": "8mm_caseless",
+    "type": "AMMO",
+    "name": { "str": "A19 hv" },
+    "description": "A caseless a19 high velocity bullet. Being propellent-assisted, these rounds exit the barrel at a very high velocity causing significant damage. Being caseless rounds, these cannot be disassembled or reloaded. ",
+    "weight": "15 g",
+    "volume": "260 ml",
+    "price": 300,
+    "price_postapoc": 1500,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "plastic", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 25,
+    "stack_size": 50,
+    "ammo_type": "cm_a19",
+    "range": 45,
+    "damage": { "damage_type": "bullet", "amount": 45, "armor_penetration": 6 },
+    "dispersion": 70,
+    "recoil": 1500,
+    "effects": [ "NEVER_MISFIRES" ]
   }
 ]
