@@ -28,5 +28,11 @@
         "id" : "cm_10x28mm",
         "name" : "10x28mm",
         "default" : "cm_10x28mm_am"
+    },
+    {
+        "type" : "ammunition_type",
+        "id" : "cm_a19",
+        "name" : "cm a19",
+        "default" : "cm_a19_hv"
     }
 ]
